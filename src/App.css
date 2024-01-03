@@ -1,38 +1,98 @@
-.App {
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 35px;
+  margin-top: 55px;
+  column-gap: normal;
+}
+
+
+.product-container {
+  width: 350px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding-bottom: 16px;
+}
+
+
+
+.product-poster {
+  width: 300px;
+  height: 350px;
+  /* object-fit: cover; */
+}
+
+.product-summary {
+  margin-top: 0px;
+  text-align: justify;
+}
+
+.product-rating {
+  /* color: green; */
+  font-weight: 800;
+}
+
+.banner {
+  margin-top: 0px;
+  color: white;
+  margin-top: 10px;
+  background-color: #3d3e46;
+  height: 350px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.b-head {
+  padding-top: 103px;
+  font-size: 79px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* .cart {
   display: flex;
-  flex-direction: column;
+  justify-content: space-evenly;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-family: monospace;
+  /* margin-left: 1100px; */
+  /* height: 35px;
+  width: 126px;
+  margin-top: 15px;
+  margin-bottom: 16px;
+}  */
+
+.home{
+  display: flex;
+    justify-content: space-between;
+    padding-top: 13px;
+    padding-right: 25px;
 }
 
-.App-link {
-  color: #61dafb;
+.footer{
+  padding-top: 35px;
+    text-align: center;
+    color: rgb(204, 192, 192);
+    background-color: #3d3e46;
+    height: 96px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav-bar{
+  display: flex;
+    align-items: center;
+    column-gap: 18px;
+    margin-left: 30px;
 }
+
+.start{
+  font-size: larger;
+  font-weight: 600;
+  margin-right: 20px;
+}
+/* #price{
+    width: 125px;
+    height: 39px;
+    margin-bottom: 11px;
+
+    mam intha css apply agala mam evloo try panna pathaenn 
+    inspect la coorect aahh work aguthuu but vs code apply aaga atuthu mam
+
+} */
+
